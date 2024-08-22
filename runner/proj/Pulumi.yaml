@@ -1,0 +1,10 @@
+name: runner
+runtime:
+  name: nodejs
+  options:
+    packagemanager: npm
+description: An example of retrieving and displaying config from ESC
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: typescript

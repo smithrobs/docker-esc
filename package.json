@@ -1,0 +1,15 @@
+{
+    "name": "docker-ecs",
+    "main": "index.ts",
+    "devDependencies": {
+        "@types/node": "^18",
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "@pulumi/aws": "^6.49.1",
+        "@pulumi/command": "^1.0.1",
+        "@pulumi/docker": "^4.5.5",
+        "@pulumi/esc-sdk": "^0.9.2",
+        "@pulumi/pulumi": "^3.129.0"
+    }
+}
